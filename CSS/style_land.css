@@ -172,7 +172,8 @@ input {
 	height: 1618px;
     width: 100%;
     margin: 0 auto;
-    background-color: #eff0f2;
+    /*background-color: #eff0f2;*/
+    background-color: #4CAF50;
 }
 .max-block5 {
 	max-width: 1440px;
@@ -194,13 +195,18 @@ input {
     box-sizing: border-box;
 }
 .service-image {
-	width: 1200px;
+	/*width: 1200px;*/
 }
-.service-up {
-	width: 1200px;
-	width: calc(100%-15px)/2;
+.service-up,
+.service-middle,
+.service-bottom {
+	max-width: 1140px;
+    margin: 0 auto;
+    /*font-size: 0;*/
 }
-
+.service:nth-child(2n+1):nth-child(-n+)  {
+	width:calc(100% - 474px - 15px);
+}
 
 
 
