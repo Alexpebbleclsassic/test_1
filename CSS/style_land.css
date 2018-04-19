@@ -83,7 +83,7 @@ span {
 h2 {
 	margin: 0;
     text-align: center;
-    padding: 129px 0 17px;
+    padding: 116px 0 17px;
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-size: 38px;
@@ -117,7 +117,7 @@ h2 {
     position: absolute;
     width: 600px;
 }
-h3 {
+.content-up {
 	text-align: left;
 	margin: 0;
 	padding-top: 152px;
@@ -149,12 +149,17 @@ h3 {
 }
 .content-bottom {
 	padding-top: 38px;
+	text-align: left;
+	text-transform: uppercase;
 }
+
+
 .radio {
 	position: relative;
 	left: 380px;
 	margin-top: 673px;
-	font-size:	
+	/*font-size: 0;	*/
+
 }
 input {
 	border-radius: 3px;
@@ -172,8 +177,8 @@ input {
 	height: 1618px;
     width: 100%;
     margin: 0 auto;
-    /*background-color: #eff0f2;*/
-    background-color: #4CAF50;
+    background-color: #eff0f2;
+    
 }
 .max-block5 {
 	max-width: 1440px;
@@ -195,35 +200,127 @@ input {
     box-sizing: border-box;
 }
 .service-image {
-	/*width: 1200px;*/
-}
-.service-up,
-.service-middle,
-.service-bottom {
-	max-width: 1140px;
+	width: 1162px;
     margin: 0 auto;
-    /*font-size: 0;*/
-}
-.service:nth-child(2n+1):nth-child(-n+)  {
-	width:calc(100% - 474px - 15px);
 }
 
+ .service-comp {
+ 	padding: 0 53px 0 72px;
+    background-color: #e2e2e2;
+ }
+
+.service-image > img {
+	margin: 7px;
+}
+.service-header {
+	margin: 0 0 116px;
+}
+ 
+.max-block5 {
+	max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+	/*background-color: lightgreen; */
+}
+.team-header {
+	margin: 0 0 116px;
+}
+.team-list {
+	margin: 0;
+	text-align: center;
+	color: #9d9e9e;
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	text-transform: uppercase;
+	letter-spacing: 1.08px;
+}
+.team-image {
+	width: 1170px;
+    margin: 0 auto;
+}
+.team {
+	margin: 8px;
+}
+
+.max-block6 {
+	max-width: 1440px;
+	height: 923px;
+	margin: 0 auto;
+	background-color: #f9fbfb; 
+}
+
+.says-list {
+	text-align: center;
+	height: 14px;
+	margin: 0 auto;
+	opacity: 0.62;
+	color: #000000;
+	font-family: Merriweather;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 28px;
+	text-transform: uppercase;
+	letter-spacing: 1.02px;
+}
+
+
+
+.says1 {
+	width: 319px;
+	height: 410px;
+	position: absolute;
+	margin-left: 185px;
+	margin-top: 137px; 
+	
+	
+}
+.says2 {
+	width: 393px;
+	height: 362px;
+	margin-left: 140px;
+	margin-top: 161px; 
+	
+}
+.says-right {
+	width: 666px;
+    height: 362px;
+    display: inline-block;
+    position: relative;
+    bottom: 222px;
+    left: 82px;
+    text-align: center;
+    background-color: #eaebed;
+}
+
+.slaid {
+	position: relative;
+    bottom: 160px;
+    left: 290px;
+}
+
+.check-image:hover {
+	background-color: #71f6eb;
+}
+
+.check-image {
+	width: 11px;
+    height: 11px;
+    margin: 3px;
+    border-radius: 3px;
+    background-color: #d0d0d0
+}
+
+
+	
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+	
 
 
 
